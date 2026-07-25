@@ -1,41 +1,54 @@
 <!-- xml -->
-<svg viewBox="0 0 700 100" width="700" height="100" xmlns="http://w3.org">
+<svg viewBox="0 0 700 100" width="100%" height="100" xmlns="http://w3.org">
+  <defs>
+    <!-- Створюємо градієнт -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFCC" />
+      <stop offset="33%" stop-color="#9400D3" />
+      <stop offset="66%" stop-color="#0077B5" />
+      <stop offset="100%" stop-color="#00FFCC" />
+    </linearGradient>
+  </defs>
+
   <style>
-    .name-text {
-      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
-      font-weight: bold;
+    /* Анімація руху градієнта */
+    @keyframes shift {
+      0% { translate: 0px 0px; }
+      50% { translate: -300px -100px; }
+      100% { translate: 0px 0px; }
+    }
+    .bg-rect {
+      fill: url(#cyber-grad);
+      width: 1000px; /* Робимо фон ширшим для плавного зсуву */
+      height: 300px;
+      animation: shift 10s ease infinite;
+    }
+    .name {
+      font-family: 'Segoe UI', Ubuntu, sans-serif;
+      font-weight: 900;
       font-size: 32px;
       fill: #ffffff;
     }
-    .title-text {
-      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
-      font-weight: 500;
-      font-size: 16px;
+    .subtitle {
+      font-family: 'Segoe UI', Ubuntu, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
       fill: #00FFCC;
-      letter-spacing: 1px;
-    }
-    @keyframes gradient-move {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    .animated-bg {
-      background: linear-gradient(-45deg, #00FFCC, #9400D3, #0077B5, #00FFCC);
-      background-size: 400% 400%;
-      animation: gradient-move 8s ease infinite;
-      width: 100%; 
-      height: 100%; 
-      display: flex; 
-      flex-direction: column; 
-      justify-content: center; 
-      align-items: center; 
-      border-radius: 8px;
+      letter-spacing: 2px;
     }
   </style>
-  <foreignObject x="0" y="0" width="700" height="100">
-    <div xmlns="http://w3.org" class="animated-bg">
-      <div class="name-text">АННА КРОЧАК</div>
-      <div class="title-text">KiraSpace777 | JUNIOR FULLSTACK DEVELOPER</div>
-    </div>
-  </foreignObject>
+
+  <!-- Кліпуємо фон, щоб він не виходив за межі скругленої картки -->
+  <clipPath id="card-shape">
+    <rect x="0" y="0" width="700" height="100" rx="10" />
+  </clipPath>
+
+  <g clip-path="url(#card-shape)">
+    <!-- Анімований фон -->
+    <rect class="bg-rect" x="0" y="0" />
+    
+    <!-- Текст поверх фону -->
+    <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" class="name">АННА КРОЧАК</text>
+    <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" class="subtitle">KIRASPACE777 | JUNIOR FULLSTACK DEVELOPER</text>
+  </g>
 </svg>
