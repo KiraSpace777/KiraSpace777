@@ -41,13 +41,12 @@ Functionality: Features an adaptive pixel-perfect design across all devices, int
 Technologies Used: HTML5, CSS3, Sass, GitHub, UI/UX Figma, Teamwork Tools
 Project Type & Role: Group Project / Front-End Developer (Testimonial Section Owner)
 Key Achievements: Engineered the "Testimonials" layout from scratch using clean, valid semantic HTML and modular CSS/Sass components; ensured 100% cross-browser compatibility and strict adherence to the initial UI/UX Figma design constraints; maintained consistent component architecture within a Git-managed collaborative environment.
- 
+
 🗣️ Languages
 ![English](https://img.shields.io/badge/English-B1-blue?style=flat-square)
 ![Ukrainian](https://img.shields.io/badge/Ukrainian-Native-yellow?style=flat-square)
 
 
--
 📫 How to reach me:  
 https://www.linkedin.com/in/anna-krochak
 
