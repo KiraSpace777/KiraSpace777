@@ -4,7 +4,7 @@
 
 👋 Hi, I'm ANNA KROCHAK
 
-I am a Junior Full-Stack Developer hands-on experience building responsive web applications using HTML, JavaScript, React, TypeScript, Next.js. I have a solid understanding of UI/UX design principles and proficiency in essential tools like VS Code, Figma, Git, Trello, Slack. Having worked on both independent and collaborative team projects, I am skilled in creating functional, visually appealing web pages, and integrating REST APIs. I thrive in remote environments, possess strong problem-solving skills, and communicate effectively with team members to deliver projects that meet all requirements.
+Junior Full-Stack Developer hands-on experience building responsive web applications using HTML, JavaScript, React, TypeScript, Next.js. I have a solid understanding of UI/UX design principles and proficiency in essential tools like VS Code, Figma, Git, Trello, Slack. Having worked on both independent and collaborative team projects, I am skilled in creating functional, visually appealing web pages, and integrating REST APIs. I thrive in remote environments, possess strong problem-solving skills, and communicate effectively with team members to deliver projects that meet all requirements.
 As a self-motivated developer, I am always eager to learn, adapt to new trends, and adopt web development best practices.
 
 TECH SKILLS
