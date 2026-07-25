@@ -8,7 +8,7 @@
   <br />
 
   <!-- Подключение вашего анимированного баннера как картинки (не забудьте создать файл banner.svg рядом!) -->
-  <img src="banner.svg" width="700" alt="Анна Крочак Профиль" />
+  <img src="https://githubusercontent.com" width="700" alt="Anna Krochak" />
 
   <br /><br />
 
