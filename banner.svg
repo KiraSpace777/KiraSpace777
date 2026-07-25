@@ -1,0 +1,41 @@
+<!-- xml -->
+<svg viewBox="0 0 700 100" width="700" height="100" xmlns="http://w3.org">
+  <style>
+    .name-text {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: bold;
+      font-size: 32px;
+      fill: #ffffff;
+    }
+    .title-text {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 500;
+      font-size: 16px;
+      fill: #00FFCC;
+      letter-spacing: 1px;
+    }
+    @keyframes gradient-move {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .animated-bg {
+      background: linear-gradient(-45deg, #00FFCC, #9400D3, #0077B5, #00FFCC);
+      background-size: 400% 400%;
+      animation: gradient-move 8s ease infinite;
+      width: 100%; 
+      height: 100%; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      border-radius: 8px;
+    }
+  </style>
+  <foreignObject x="0" y="0" width="700" height="100">
+    <div xmlns="http://w3.org" class="animated-bg">
+      <div class="name-text">АННА КРОЧАК</div>
+      <div class="title-text">KiraSpace777 | JUNIOR FULLSTACK DEVELOPER</div>
+    </div>
+  </foreignObject>
+</svg>
